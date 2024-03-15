@@ -1,0 +1,1 @@
+var setting={name:"LD-管理系统",reqUrl:"ld-test-api.caacaya.com",nodeId:"500",im_url:"kf.gztonban.com"}

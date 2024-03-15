@@ -1,0 +1,141 @@
+#commonMode {
+  .mb30 {
+    margin-bottom: 30px;
+    .title {
+      font-size: 14px;
+      position: relative;
+      top: 2px;
+    }
+  }
+  .content {
+    & > div {
+      .title {
+        font-size: 16px;
+        margin: 20px 0;
+        padding-left: 10px;
+        border-left: 3px solid #3080fe;
+        color: #666;
+      }
+      p {
+        margin-bottom: 13px;
+        font-size: 12px;
+        em.error {
+          font-size: 12px;
+          color: #ed3f14;
+        }
+      }
+    }
+  }
+  .ivu-radio-group-item {
+    min-width: 105px;
+    padding: 0px;
+    text-align: center;
+  }
+  .type {
+    .title {
+      font-size: 14px;
+    }
+    .ivu-radio-group-item {
+      min-width: 105px;
+      padding: 0px;
+      text-align: center;
+    }
+  }
+  .button-wrapper {
+    margin-top: 20px;
+  }
+  .content {
+    margin-top: 10px;
+    & > div {
+      .title {
+        font-size: 16px;
+        margin: 20px 0;
+        padding-left: 10px;
+        border-left: 3px solid #3080fe;
+        color: #666;
+      }
+      p {
+        margin-bottom: 13px;
+        font-size: 12px;
+      }
+    }
+    .back-water-money {
+      padding-left: 20px;
+      padding-top: 10px;
+      .add-btn {
+        margin-top: 20px;
+      }
+      .money {
+        width: 100%;
+      }
+      .max-rebate {
+        margin-top: 10px;
+        span {
+          margin-right: 5px;
+        }
+        em.error {
+          font-size: 12px;
+          color: #ed3f14;
+        }
+      }
+      .money-content {
+        display: flex;
+        margin-top: 20px;
+
+        .common-item {
+          flex: 0 0 220px;
+          width: 220px;
+          display: flex;
+          span {
+            flex: 0 0 30px;
+            line-height: 32px;
+            font-size: 12px;
+            margin: 0px 3px;
+            &.da-ma {
+              flex: 0 0 65px;
+            }
+          }
+          &.money-item {
+            flex: 0 0 350px;
+            display: flex;
+            span {
+              flex: 0 0 80px;
+            }
+          }
+        }
+        .input-wrapper {
+          flex: 0 0 120px;
+          width: 120px;
+          position: relative;
+          em.error {
+            position: absolute;
+            left: 0;
+            top: 30px;
+            font-size: 12px;
+            color: #ed3f14;
+          }
+        }
+      }
+    }
+    .back-water-time-setting {
+      vertical-align: top;
+      h1 {
+        span.rule {
+          color: red;
+          font-weight: normal;
+          font-size: 12px;
+        }
+      }
+      .time-wrapper {
+        display: flex;
+        .time-span {
+          flex: 0 0 55px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+  .ivu-time-picker-cells-cell {
+    font-size: 12px;
+  }
+}

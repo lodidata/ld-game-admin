@@ -1,0 +1,56 @@
+#HallSort {
+  position: relative;
+  margin-left: 5px;
+  .title {
+    width: 600px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 15px;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    border-bottom: 0px solid #dcdcdc;
+    background-color: #f2f2f2;
+  }
+  .list-group {
+    width: 600px;
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+
+    .list-group-item {
+      width: 25%;
+      margin-left: 6.25%;
+      margin-bottom: 10px;
+      display: inline-block;
+      p {
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        border: 1px solid #dcdcdc;
+      }
+    }
+  }
+  .flip-list-move {
+    transition: transform 0.5s;
+  }
+
+  .no-move {
+    transition: transform 0s;
+  }
+
+  .ghost {
+    opacity: 0.5;
+    background: #c8ebfb;
+  }
+  .list-group {
+    min-height: 20px;
+  }
+
+  .list-group-item {
+    cursor: move;
+  }
+
+  .list-group-item i {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,60 @@
+.userhandle {
+  /deep/.ivu-dropdown-menu {
+    min-width: 90px;
+    .ivu-dropdown-item {
+      a {
+        color: #495060;
+      }
+    }
+  }
+  display: flex;
+  justify-content: space-between;
+  padding: 0 22px;
+  overflow: hidden;
+  .user {
+    font-size: 20px;
+    color: #000;
+  }
+  .handles {
+    user-select: none;
+    display: flex;
+    align-items: center;
+    & > div {
+      cursor: pointer;
+      width: 88px;
+      text-align: center;
+      background-color: rgba(220, 222, 226, 0.4);
+      border-radius: 6px;
+      line-height: 28px;
+      color: #666;
+      font-size: 12px;
+      margin-right: 9px;
+      &.red {
+        background-color: #ed4014;
+        color: #fff;
+      }
+      &:nth-last-child(1) {
+        margin-right: 0;
+      }
+    }
+  }
+  .client-name {
+    margin-left: 6px;
+    font-size: 16px;
+  }
+  .client-question {
+    margin-left: 15px;
+    padding-left: 15px;
+    font-size: 16px;
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 3px;
+      width: 2px;
+      height: 15px;
+      background-color: #495060;
+    }
+  }
+}

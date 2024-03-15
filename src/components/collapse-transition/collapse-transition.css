@@ -1,0 +1,76 @@
+.collapse-ul-transition li {
+  overflow: hidden;
+}
+.collapse-ul-transition li .title {
+  background-color: #e9e9e9;
+  border-bottom: 1px solid #cacaca;
+  position: relative;
+  padding: 8px 0px 8px 10px;
+  cursor: pointer;
+  z-index: 2;
+  display: flex;
+}
+.collapse-ul-transition li .title .collapse-btn {
+  flex: 1;
+  display: flex;
+}
+.collapse-ul-transition li .title .collapse-btn .text-title {
+  flex: 1;
+  padding-left: 10px;
+}
+.collapse-ul-transition li .title .collapse-btn .input {
+  width: 60%;
+  position: relative;
+  height: 25px;
+  left: 10px;
+  top: -3px;
+  border-radius: 3px;
+  transition: all 0.2s;
+  font-size: 12px;
+}
+.collapse-ul-transition li .title .admin-btn {
+  flex: 0 0 60px;
+  position: relative;
+}
+.collapse-ul-transition li .title.showIcon:hover .icon {
+  display: block;
+}
+.collapse-ul-transition li .contentWrapper {
+  transition: all 0.4s;
+}
+.collapse-ul-transition li .contentWrapper .content {
+  padding: 10px 0px 10px 20px;
+  position: relative;
+  border-bottom: 1px solid #eaeaea;
+  font-size: 12px;
+  display: flex;
+}
+.collapse-ul-transition li .contentWrapper .content .text {
+  flex: 1;
+}
+.collapse-ul-transition li .contentWrapper .content .admin-btn {
+  flex: 0 0 60px;
+  position: relative;
+}
+.collapse-ul-transition li .contentWrapper .content .icon {
+  font-size: 14px;
+}
+.collapse-ul-transition li .contentWrapper .content.showIcon:hover .icon {
+  display: block;
+}
+.collapse-ul-transition .icon {
+  position: absolute;
+  display: none;
+  cursor: pointer;
+  padding: 0px 10px;
+  bottom: 0px;
+}
+.collapse-ul-transition .icon.editIcon {
+  right: 25px;
+}
+.collapse-ul-transition .icon.removeIcon {
+  right: 5px;
+}
+.collapse-ul-transition .icon::before {
+  font-size: 14px;
+}

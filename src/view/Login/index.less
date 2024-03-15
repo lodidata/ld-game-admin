@@ -1,0 +1,90 @@
+.login {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #193c6d;
+  background-position: center;
+  background-size: 100%;
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    100% 100%,
+    color-stop(0, #003073),
+    color-stop(100%, #029797)
+  );
+  background-image: -webkit-linear-gradient(135deg, #003073, #029797);
+  background-image: -moz-linear-gradient(45deg, #003073, #029797);
+  background-image: -ms-linear-gradient(45deg, #003073 0, #029797 100%);
+  background-image: -o-linear-gradient(45deg, #003073, #029797);
+  background-image: linear-gradient(135deg, #003073, #029797);
+  text-align: center;
+  margin: 0px;
+  overflow: hidden;
+  &-con {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+    width: 320px;
+    &-header {
+      font-size: 16px;
+      font-weight: 300;
+      text-align: center;
+      padding: 30px 0;
+    }
+    .form-con {
+      padding: 10px 0 0;
+    }
+    .login-tip {
+      font-size: 10px;
+      text-align: center;
+      color: #c3c3c3;
+    }
+  }
+  .authcode {
+    .ivu-input-group-prepend {
+      padding: 0;
+      overflow: hidden;
+      img {
+        height: 100%;
+        display: block;
+        cursor: pointer;
+      }
+      span {
+        cursor: pointer;
+        padding: 0 4px;
+      }
+      .authcodeBox {
+        position: relative;
+      }
+    }
+  }
+  .login-box {
+    margin-bottom: 6px;
+  }
+  .google {
+    margin-top: -20px;
+    text-align: center;
+    .title {
+      padding-bottom: 10px;
+    }
+    img {
+      width: 60%;
+    }
+  }
+  .ivu-card {
+    background: rgba(255, 255, 255, 0.7) !important;
+    box-shadow: 0 0 10px #3fbeeb;
+    &:hover {
+      box-shadow: 0 0 10px #047dfd;
+    }
+    .ivu-card-head {
+      padding-bottom: 0;
+      border-bottom: none;
+      font-size: 30px;
+    }
+    .ivu-card-body {
+      padding-top: 4px;
+    }
+  }
+}

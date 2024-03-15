@@ -1,0 +1,58 @@
+#LotterySwitch {
+  .queryTit {
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+    margin-right: 20px;
+  }
+  .options {
+    li {
+      display: flex;
+    }
+  }
+}
+#eidt-dialog {
+  margin-top: 20px;
+  /deep/.ivu-modal-content {
+    height: 86vh;
+    overflow-y: scroll;
+  }
+  .options-tips {
+    margin-top: 30px;
+    .title {
+      font-size: 16px;
+      padding-left: 10px;
+      border-left: 3px solid #3080fe;
+      color: #666;
+    }
+    ul {
+      margin: 20px 0;
+      border: 1px solid #dcdcdc;
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #dcdcdc;
+        height: 60px;
+        line-height: 60px;
+        &:last-child {
+          border-bottom: 0px solid #dcdcdc;
+        }
+        & > div {
+          text-align: center;
+          flex: 4;
+          padding: 0 8px;
+          &:first-child {
+            flex: 1;
+            border-right: 1px solid #dcdcdc;
+          }
+          &:last-child {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}

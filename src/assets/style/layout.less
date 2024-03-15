@@ -1,0 +1,54 @@
+// 查询条件区域
+.query_box {
+  position: relative;
+  font-size: 12px !important;
+  margin-bottom: 15px;
+  .query_con {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    color: #495060;
+    .item {
+      margin-bottom: 10px;
+      margin-right: 20px;
+      & > span:nth-child(1) {
+        min-width: 70px;
+        display: inline-block;
+        text-align: right;
+        margin-right: 5px;
+      }
+    }
+  }
+  .query_btns {
+    // margin-top: 5px;
+    padding-left: 70px;
+  }
+}
+
+// 分页容器样式
+.page_box {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+// 展示型tab内容
+.tab_box {
+  position: relative;
+  // 区域标题
+  .title {
+    font-size: 16px;
+    margin: 20px 0;
+    padding-left: 10px;
+    border-left: 3px solid rgb(48, 128, 254);
+    color: #666;
+    .title_des {
+      font-size: 13px;
+      margin-left: 10px;
+    }
+  }
+  // 区域内容
+  .content {
+    margin-left: 20px;
+  }
+}
